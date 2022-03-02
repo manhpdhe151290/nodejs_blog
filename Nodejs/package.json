@@ -1,0 +1,37 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
+    "watch": "node-sass --watch src/resources/scss/app.scss --output src/public/css/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manhpdhe151290/nodejs_blog.git"
+  },
+  "keywords": [
+    "F8",
+    "blog",
+    "f8",
+    "nodejs",
+    "nodejs"
+  ],
+  "author": "manhpd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manhpdhe151290/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/manhpdhe151290/nodejs_blog#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
